@@ -1,0 +1,50 @@
+[{
+  "id": 1,
+  "property": "White House",
+  "pricepermonth": 2530,
+  "location": "2563 8th ave",
+  "thumbnail": "https://source.unsplash.com/random/220x120/?whitehouse",
+  "occupants": [{
+      "name": "president",
+      "age": 57
+    },
+    {
+      "name": "secretary",
+      "age": 34
+    },
+    {
+      "name": "butler",
+      "age": 25
+    }
+  ]
+}, {
+  "id": 2,
+  "property": "Bobs Crab Shack",
+  "pricepermonth": 684,
+  "location": "32 North Street",
+  "thumbnail": "https://source.unsplash.com/random/220x120/?crab",
+  "occupants": [{
+    "name": "Bob",
+    "age": 26
+  }]
+}, {
+  "id": 3,
+  "property": "Gerrys Fishing Store",
+  "pricepermonth": 983,
+  "location": "7983 West Big Rd",
+  "thumbnail": "https://source.unsplash.com/random/220x120/?fishing",
+  "occupants": [{
+    "name": "Gerry",
+    "age": 34
+  }]
+}, {
+  "id": 4,
+  "property": "Annes Rental Property",
+  "pricepermonth": 1020,
+  "location": "0382 Witherton Ave",
+  "thumbnail": "https://source.unsplash.com/random/220x120/?rental",
+  "occupants": [{
+    "name": "anne",
+    "age": 78
+  }]
+}]
