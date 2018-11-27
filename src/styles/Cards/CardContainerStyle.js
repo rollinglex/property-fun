@@ -1,12 +1,14 @@
 import styled from "styled-components";
+import { colors } from "../variables";
 
+const { whitePrimary } = colors;
 const CardsContainer = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 80vw;
 
-  background-color: #fafafa;
+  background-color: ${whitePrimary};
   position: relative;
   left: 50%;
   top: 0;
