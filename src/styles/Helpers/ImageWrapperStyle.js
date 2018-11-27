@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { colors } from "../variables";
+
+const { grayPrimary } = colors;
 
 const ImageWrapper = styled.div`
   min-height: 9rem;
@@ -8,7 +11,7 @@ const ImageWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  color: gray;
+  color: ${grayPrimary};
 `;
 
 export default ImageWrapper;

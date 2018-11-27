@@ -1,5 +1,7 @@
 import styled from "styled-components";
+import { colors } from "../../variables";
 
+const { whitePrimary, blackPrimary } = colors;
 const MatchModal = styled.div`
   display: flex;
   width: 100%;
@@ -9,8 +11,8 @@ const MatchModal = styled.div`
   box-sizing: border-box;
   align-self: center;
   justify-content: space-around;
-  background-color: #fff;
-  color: black;
+  background-color: ${whitePrimary};
+  color: ${blackPrimary};
   overflow: hidden;
 
   @media (max-width: 900px) {
