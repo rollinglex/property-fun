@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import Modal from "./Modal";
-import ModalContainerStyle from "./ModalContainerStyle";
-import CloseModalButtonStyle from "./CloseModalButtonStyle";
+import Wrapper from "./style/ModalContainerStyle";
+import CloseButton from "./style/CloseModalButtonStyle";
 function ModalContainer({
   showModal,
   modalData,
@@ -15,14 +15,12 @@ function ModalContainer({
   //opens modal depending on ModalType
 
   return !showModal ? null : (
-    <ModalContainerStyle
-      yPosition={openModalPosition > 0 ? openModalPosition + "px" : 0}
-    >
-      <CloseModalButtonStyle onClick={toggleModal} role="button">
+    <Wrapper yPosition={openModalPosition > 0 ? openModalPosition + "px" : 0}>
+      <CloseButton onClick={toggleModal} role="button">
         X
-      </CloseModalButtonStyle>
+      </CloseButton>
       <Modal modalType={modalType} modalData={modalData} />
-    </ModalContainerStyle>
+    </Wrapper>
   );
 }
 
