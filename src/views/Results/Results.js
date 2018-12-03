@@ -1,7 +1,7 @@
 import React from "react";
-import { HeroImgStyle, PageStyle } from "../styles/Page";
-import MatchesContainer from "../components/Matches/MatchContainer/MatchContainer";
-import samplePhoto from "../resources/img/stock.jpeg";
+import { PageStyle, HeroImgStyle } from "./ResultsStyle";
+import MatchesContainer from "../../components/Matches/MatchContainer/MatchContainer";
+import samplePhoto from "../../resources/img/stock.jpeg";
 
 function Results() {
   return (
