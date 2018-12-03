@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { MatchModalStyle } from "../../../styles/Helpers/";
-import { ImgWithStatusText } from "../index";
-import { UserLike } from "../../Helpers";
+import MatchModalStyle from "./MatchModalStyle";
+import { ImgWithStatusText } from "../../index";
 
 function MatchModal({ modalData }) {
   const {

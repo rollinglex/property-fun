@@ -2,11 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import Modal from "./Modal";
-import {
-  ModalContainerStyle,
-  CloseModalButtonStyle
-} from "../../../styles/Helpers";
-
+import ModalContainerStyle from "./ModalContainerStyle";
+import CloseModalButtonStyle from "./CloseModalButtonStyle";
 function ModalContainer({
   showModal,
   modalData,

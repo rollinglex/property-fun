@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import MatchModal from "./MatchModal";
+import MatchModal from "./MatchModal/MatchModal";
 
 function Modal({ modalType, modalData }) {
   switch (modalType) {
