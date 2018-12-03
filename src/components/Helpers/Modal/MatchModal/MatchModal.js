@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import MatchModalStyle from "./MatchModalStyle";
-import { ImgWithStatusText } from "../../index";
+import { ImgWithStatusText } from "../../Helpers";
 
 function MatchModal({ modalData }) {
   const {

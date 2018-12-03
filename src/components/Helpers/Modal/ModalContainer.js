@@ -1,9 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import Modal from "./Modal";
+import ModalController from "./ModalController";
 import Wrapper from "./style/ModalContainerStyle";
 import CloseButton from "./style/CloseModalButtonStyle";
+
 function ModalContainer({
   showModal,
   modalData,
@@ -19,7 +20,7 @@ function ModalContainer({
       <CloseButton onClick={toggleModal} role="button">
         X
       </CloseButton>
-      <Modal modalType={modalType} modalData={modalData} />
+      <ModalController modalType={modalType} modalData={modalData} />
     </Wrapper>
   );
 }

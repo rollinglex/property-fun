@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import MatchModal from "./MatchModal/MatchModal";
+import MatchModal from "./MatchModal";
 
-function Modal({ modalType, modalData }) {
+function ModalController({ modalType, modalData }) {
   switch (modalType) {
     case "match":
       return <MatchModal modalData={modalData} />;
@@ -11,8 +11,8 @@ function Modal({ modalType, modalData }) {
       return null;
   }
 }
-Modal.propTypes = {
+ModalController.propTypes = {
   modalType: PropTypes.string.isRequired,
   modalData: PropTypes.object
 };
-export default Modal;
+export default ModalController;
