@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
-import { CardsContainerStyle } from "../../styles/Cards";
-import Match from "./Match";
-import { ModalContainer } from "../Helpers";
-import { userLikeLocalStorage } from "../../general-helpers";
+import CardsContainerStyle from "./MatchContainerStyle";
+import Match from "./../MatchPresentational/Match";
+import { ModalContainer } from "../../Helpers";
+import { userLikeLocalStorage } from "../../../general-helpers";
 
-import testData from "../../resources/sampleData";
+import testData from "../../../resources/sampleData";
 
 class MatchesContainer extends Component {
   //this.state.userLikes is given the value of a new Set in componentDidMount to prevent duplicate ids.//

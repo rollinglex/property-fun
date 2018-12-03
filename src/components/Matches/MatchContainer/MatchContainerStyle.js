@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const CardsContainer = styled.section`
+export default styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -41,5 +41,3 @@ const CardsContainer = styled.section`
     }
   }
 `;
-
-export default CardsContainer;
