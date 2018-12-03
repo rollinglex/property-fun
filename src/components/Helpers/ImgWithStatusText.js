@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import { ImageWrapperStyle } from "../../styles/Helpers/";
+import ImageWrapper from "./style/ImageWrapperStyle";
 
 class ImgWithStatusText extends Component {
   state = {
@@ -23,7 +23,7 @@ class ImgWithStatusText extends Component {
   render() {
     const { imgSrc, altText } = this.props;
     return (
-      <ImageWrapperStyle>
+      <ImageWrapper>
         <img
           src={imgSrc}
           alt={altText}
@@ -31,7 +31,7 @@ class ImgWithStatusText extends Component {
           onError={this.imageErrorHandler}
         />
         {this.state.status !== "loaded" ? this.state.status : null}
-      </ImageWrapperStyle>
+      </ImageWrapper>
     );
   }
 }
