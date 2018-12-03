@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import CardsContainerStyle from "./MatchContainerStyle";
-import Match from "./../MatchPresentational/Match";
+import Wrapper from "./MatchContainerStyle";
+import Match from "./../MatchPresentational";
 import { ModalContainer } from "../../Helpers";
 import { userLikeLocalStorage } from "../../../general-helpers";
 
@@ -87,7 +87,7 @@ class MatchesContainer extends Component {
       modalOpenClickPosition
     } = this.state;
     return (
-      <CardsContainerStyle>
+      <Wrapper>
         <header>
           <p>Your Results</p>
         </header>
@@ -111,7 +111,7 @@ class MatchesContainer extends Component {
             />
           );
         })}
-      </CardsContainerStyle>
+      </Wrapper>
     );
   }
 }
