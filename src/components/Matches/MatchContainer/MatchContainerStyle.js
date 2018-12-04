@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { colors } from "../variables";
+import { colors } from "../../../styles/variables";
 
 const { whitePrimary } = colors;
-const CardsContainer = styled.section`
+export default styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -43,5 +43,3 @@ const CardsContainer = styled.section`
     }
   }
 `;
-
-export default CardsContainer;

@@ -1,7 +1,7 @@
 import React from "react";
 import GlobalStyles from "../styles/globalStyles";
 
-import Results from "../views/Results.js";
+import Results from "../views/Results/Results.js";
 function App() {
   return (
     <>

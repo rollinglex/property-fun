@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { UserLikeStyle } from "../../styles/Helpers";
-import { NotLikedHeartStyle, LikedHeartStyle } from "../../styles/Helpers";
+import UserLikeStyle from "./style/UserLike";
+import { NotLikedHeart, LikedHeart } from "./style/LikedHeart";
 
 function UserLike({
   isLiked,
@@ -16,9 +16,9 @@ function UserLike({
   return (
     <UserLikeStyle left={left} right={right} top={top} bottom={bottom}>
       {!isLiked ? (
-        <NotLikedHeartStyle onClick={e => toggleLikeHandler(e, targetId)} />
+        <NotLikedHeart onClick={e => toggleLikeHandler(e, targetId)} />
       ) : (
-        <LikedHeartStyle onClick={e => toggleLikeHandler(e, targetId)} />
+        <LikedHeart onClick={e => toggleLikeHandler(e, targetId)} />
       )}
     </UserLikeStyle>
   );

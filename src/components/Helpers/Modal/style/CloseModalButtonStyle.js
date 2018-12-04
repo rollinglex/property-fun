@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../variables";
+import { colors } from "../../../../styles/variables";
 
 const { blackPrimary } = colors;
 export default styled.span`

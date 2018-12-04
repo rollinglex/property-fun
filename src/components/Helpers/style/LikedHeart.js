@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { colors } from "../variables";
+import { colors } from "../../../styles/variables";
 
 const { likedPrimary, likedSecondary, blackPrimary } = colors;
 export const NotLikedHeart = styled.div`
