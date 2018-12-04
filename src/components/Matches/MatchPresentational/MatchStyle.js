@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import { colors } from "../../../styles/variables";
 
+const { whitePrimary } = colors;
 export default styled.div`
   width: 20%;
   min-width: 18rem;
-  background-color: #fff;
+  background-color: ${whitePrimary};
   box-shadow: 0px 1px 2px 1px #dcdcdc;
   display: flex;
   flex-direction: column;

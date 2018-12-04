@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 import { colors } from "../../../styles/variables";
 
-const { likedPrimary, likedSecondary } = colors;
+const { likedPrimary, likedSecondary, blackPrimary } = colors;
 export const NotLikedHeart = styled.div`
   width: 1rem;
   height: 1rem;
-  background-color: black;
+  background-color: ${blackPrimary};
   color: white;
   border-bottom-left-radius: 7px;
   transform: rotate(0deg) scale(0.8);
@@ -16,7 +16,7 @@ export const NotLikedHeart = styled.div`
     content: "";
     height: 1rem;
     width: 1rem;
-    background-color: black;
+    background-color: ${blackPrimary};
     border-radius: 50%;
   }
   ::after {

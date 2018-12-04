@@ -9,8 +9,8 @@ The items can be liked and the list of liked items are stored in browser storage
 ## Install
 
 ```
-    git clone https://github.com/ORG/PROJECT.git
-    cd PROJECT
+    git clone https://github.com/rollsthomas/property-fun.git
+    cd property-fun
     npm install
 ```
 
